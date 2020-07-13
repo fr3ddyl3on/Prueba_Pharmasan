@@ -1,0 +1,74 @@
+.fondo{
+    background-image: url('../img/Background.jpg');
+}
+
+.colornv{
+    background:rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    background-color: rgba(229, 228, 255, 0.2);
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100vh;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 700px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view  {
+    height: 650px;
+    }
+}
+
+.card {
+    margin-top: 30px;
+    /*margin-bottom: -45px;*/
+}
+
+.md-form input[type=text]:focus:not([readonly]),
+.md-form input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #fb5364;
+    box-shadow: 0 1px 0 0 #fb5364;
+}
+
+.md-form input[type=text]:focus:not([readonly])+label,
+.md-form input[type=password]:focus:not([readonly])+label {
+    color: #fb5364;
+}
+
+.md-form .form-control {
+    color: #fff;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+display: block;
+}
